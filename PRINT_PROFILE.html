@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JB TRANS - Corporate Profile & Credentials</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background: #eaedf2; color: #1e293b; line-height: 1.5; padding: 24px; }
+    .print-bar { max-width: 820px; margin: 0 auto 16px; display: flex; justify-content: space-between; align-items: center; }
+    .btn-print { background: #0066cc; color: #ffffff; border: none; padding: 10px 20px; font-weight: 700; border-radius: 6px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; font-size: 0.95rem; }
+    .btn-print:hover { background: #0052a3; }
+    .btn-back { color: #0066cc; text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+    
+    .profile-paper { max-width: 820px; margin: 0 auto; background: #ffffff; padding: 40px; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    
+    .header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 2px solid #0b2247; padding-bottom: 18px; margin-bottom: 24px; }
+    .brand h1 { font-family: 'Outfit', sans-serif; font-size: 2.2rem; font-weight: 900; color: #0b2247; letter-spacing: 1px; }
+    .brand .subtitle { color: #0066cc; font-weight: 700; font-size: 0.95rem; margin-top: 2px; }
+    .brand .gst { font-size: 0.85rem; color: #64748b; margin-top: 4px; }
+    .header-contacts { text-align: right; font-size: 0.85rem; color: #334155; }
+    .badge { background: #0b2247; color: #fff; font-size: 0.75rem; font-weight: 800; padding: 3px 8px; border-radius: 4px; display: inline-block; margin-bottom: 6px; }
+    
+    h2 { font-family: 'Outfit', sans-serif; font-size: 1.15rem; color: #0b2247; border-bottom: 1.5px solid #e2e8f0; padding-bottom: 5px; margin: 20px 0 10px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; }
+    p { font-size: 0.9rem; color: #334155; margin-bottom: 10px; line-height: 1.6; }
+    
+    table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 0.88rem; }
+    th { background: #f1f5f9; text-align: left; padding: 8px 10px; border: 1px solid #cbd5e1; color: #0b2247; }
+    td { padding: 8px 10px; border: 1px solid #cbd5e1; }
+    
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 10px 0; }
+    .box { background: #f8fafc; border: 1px solid #e2e8f0; padding: 14px; border-radius: 6px; }
+    .box h3 { font-size: 0.9rem; font-weight: 700; color: #0b2247; margin-bottom: 6px; }
+    .box ul { padding-left: 16px; font-size: 0.82rem; color: #475569; }
+    .box li { margin-bottom: 4px; }
+    
+    .footer-sign { display: flex; justify-content: space-between; align-items: flex-end; margin-top: 36px; padding-top: 20px; border-top: 1px solid #cbd5e1; font-size: 0.85rem; }
+    .sign-space { margin-bottom: 40px; font-weight: 700; color: #0b2247; }
+    .sign-border { border-top: 1px dashed #94a3b8; padding-top: 4px; font-weight: 600; }
+    
+    @media print {
+      body { background: #ffffff; padding: 0; }
+      .print-bar { display: none; }
+      .profile-paper { box-shadow: none; padding: 20px 0; max-width: 100%; }
+      @page { size: A4 portrait; margin: 1.5cm; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="print-bar">
+    <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Back to Main Portal</a>
+    <button onclick="window.print()" class="btn-print"><i class="fa-solid fa-print"></i> Print / Save as PDF</button>
+  </div>
+
+  <div class="profile-paper">
+    <div class="header">
+      <div class="brand">
+        <img src="assets/jb_logo_header.png" alt="JB TRANS Logo" style="height: 48px; width: auto; max-width: 280px; object-fit: contain; margin-bottom: 6px;" />
+        <div class="subtitle">Commercial Transport & Logistics Carrier</div>
+        <div class="gst">GSTIN: <strong>33AHHPA4958K1Z9</strong> | Government of India Form GST REG-06</div>
+      </div>
+      <div class="header-contacts">
+        <div class="badge">OFFICIAL PROFILE</div>
+        <div><strong>Operations:</strong> Senthil (+91 99437 23777)</div>
+        <div><strong>Support:</strong> +91 88700 84946 / 86678 22186</div>
+        <div><strong>Email:</strong> jbtrans1983@gmail.com</div>
+        <div><strong>Location:</strong> Coimbatore - 641 029, Tamil Nadu</div>
+      </div>
+    </div>
+
+    <!-- Real Truck Photo -->
+    <div style="margin: 18px 0; border-radius: 6px; overflow: hidden; border: 1px solid #cbd5e1; max-height: 240px;">
+      <img src="assets/my_lorry.jpg" alt="JB TRANS Lorry" style="width: 100%; height: 240px; object-fit: cover; object-position: center 30%;" />
+    </div>
+
+    <h2>1. Company Profile & Overview</h2>
+    <p>
+      <strong>JB TRANS</strong> is a commercial transportation enterprise based in Coimbatore, Tamil Nadu. Registered under the proprietorship of <strong>Gnanavelan Archana</strong> and managed by <strong>Senthil</strong>, the firm provides commercial logistics and transportation services across Tamil Nadu, South India, and Pan-India routes.
+    </p>
+
+    <h2>2. Statutory & Business Registration</h2>
+    <table>
+      <tbody>
+        <tr>
+          <td width="35%"><strong>Legal Name of Business</strong></td>
+          <td>Gnanavelan Archana</td>
+        </tr>
+        <tr>
+          <td><strong>Trade Name</strong></td>
+          <td><strong>JB TRANS</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Constitution of Business</strong></td>
+          <td>Proprietorship (Proprietrix: Gnanavelan Archana)</td>
+        </tr>
+        <tr>
+          <td><strong>GSTIN Registration Number</strong></td>
+          <td><strong>33AHHPA4958K1Z9</strong> (Form GST REG-06 Verified)</td>
+        </tr>
+        <tr>
+          <td><strong>Registered Office Address</strong></td>
+          <td>Flat 303 Lotus Block, Shri Brindhavan Gardens, Near Alankar Thottam, Vellakinar Pirivi, GN Mills, Coimbatore, Tamil Nadu - 641 029</td>
+        </tr>
+        <tr>
+          <td><strong>Key Operations Manager</strong></td>
+          <td><strong>Senthil</strong> (Direct Mobile: +91 99437 23777)</td>
+        </tr>
+        <tr>
+          <td><strong>Official Email</strong></td>
+          <td>jbtrans1983@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>3. Key Commercial Contracts</h2>
+    <div class="grid-2">
+      <div class="box">
+        <h3>Hatsun Agro Product Ltd</h3>
+        <p><strong>Brand:</strong> Hatsun / Arun Icecreams</p>
+        <p><strong>Contract Scope:</strong> Dairy & Ice Cream Long-Haul Logistics</p>
+      </div>
+      <div class="box">
+        <h3>Milky Mist Dairy Foods</h3>
+        <p><strong>Brand:</strong> Milky Mist</p>
+        <p><strong>Contract Scope:</strong> Dairy & Chilled Freight Contract</p>
+      </div>
+      <div class="box" style="grid-column: 1 / -1;">
+        <h3>Mercely's Ice Cream</h3>
+        <p><strong>Brand:</strong> Mercely's Pure Milk Ice Cream</p>
+        <p><strong>Contract Scope:</strong> Deep Freeze Transport Contract</p>
+      </div>
+    </div>
+
+    <h2>4. Key Operating Corridors</h2>
+    <p>
+      • <strong>Intra-State Tamil Nadu:</strong> Coimbatore ⇄ Chennai | Coimbatore ⇄ Madurai | Coimbatore ⇄ Tirupur / Erode / Salem<br>
+      • <strong>Inter-State South India:</strong> Coimbatore ⇄ Bangalore (Karnataka) | Coimbatore ⇄ Kochi (Kerala) | Tamil Nadu ⇄ Hyderabad (Telangana)<br>
+      • <strong>Pan-India Heavy Line-Haul:</strong> South India ⇄ Mumbai (MH) | South India ⇄ Gujarat | Gujarat ⇄ Haryana / Punjab / Jammu & Kashmir | South India ⇄ Delhi routes.
+    </p>
+
+    <div class="footer-sign">
+      <div>
+        <div class="sign-space">For <strong>JB TRANS</strong></div>
+        <div class="sign-border">Authorized Signatory / Operations Desk</div>
+        <div style="font-size: 0.78rem; color: #64748b;">Coimbatore, Tamil Nadu</div>
+      </div>
+      <div style="text-align: right; font-size: 0.78rem; color: #64748b;">
+        <div>Contact: <strong>+91 99437 23777</strong> | <strong>+91 88700 84946</strong></div>
+        <div>Email: <strong>jbtrans1983@gmail.com</strong></div>
+        <div><em>Official Commercial Profile Dossier</em></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
