@@ -34,7 +34,7 @@
 ### **4. Key Operating Corridors**
 - **Tamil Nadu Intra-State:** Coimbatore ⇄ Chennai, Madurai, Tirupur, Erode, Salem.
 - **Inter-State South India:** Coimbatore ⇄ Bangalore (Karnataka), Kochi (Kerala), Hyderabad (Telangana).
-- **Pan-India Long Haul:** South India ⇄ Mumbai (MH), Gujarat, Haryana, Punjab, Jammu & Kashmir, and Delhi corridors.
+- **Pan-India Long Haul:** South India ⇄ Mumbai (MH), Gujarat ⇄ Haryana / Punjab / Jammu & Kashmir, and South India ⇄ Delhi corridors.
 
 ---
 
